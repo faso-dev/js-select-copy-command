@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
+    <title>JS COMMANDES</title>
+</head>
+<body>
+
+<div class="container">
+    <p class="mt-5">
+        Les commandes document.execCommand() de la méthode
+        "couper" et "copier" peuvent être utilisées pour
+        remplacer le contenu actuel du presse-papiers par le matériel
+        sélectionné. Ces commandes peuvent être utilisées sans
+        permission spéciale si vous les utilisez dans un gestionnaire
+        d'événements de courte durée pour une action utilisateur (par exemple, un gestionnaire de clics).
+    </p>
+    <div class="code_ide p-5 mt-5">
+        <div class="editor">
+            <span class="btn-copy">copy</span>
+            <code lang="js" class="code_block">
+            <span class="code_block_start">
+                const <span class="code_keyword">fn</span> =  () => {
+            </span>
+                <span class="code_block_body">
+                <span class="code_block_line">
+                   <span class="code_keyword_comment">
+                       alert("copy me")
+                   </span>
+                </span>
+            </span>
+                <span class="code_block_end">
+            }
+            </span>
+            </code>
+        </div>
+    </div>
+    <div class="code_ide p-5 mt-5">
+        <div class="editor">
+            <span class="btn-copy">copy</span>
+            <code lang="js" class="code_block">
+            <span class="code_block_start">
+                const <span class="code_keyword">fn</span> =  () => {
+            </span>
+                <span class="code_block_body">
+                <span class="code_block_line">
+                   <span class="code_keyword_comment">
+                       [1,2,3].map(num => num * 2)
+                   </span>
+                </span>
+            </span>
+                <span class="code_block_end">
+            }
+            </span>
+            </code>
+        </div>
+    </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.container {
+    max-width: 1024px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mt-5 {
+    margin-top: 5em;
+}
+
+.code_block_start,
+.code_block_end,
+.code_block_body,
+.code_block_line {
+    display: block;
+}
+
+.code_block_body {
+    padding-left: 2em;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.p-5 {
+    padding: 2em;
+}
+
+.code_ide {
+    background: #000;
+    color: #fff;
+}
+
+.code_keyword {
+    color: red;
+}
+
+.btn-copy {
+    display: block;
+    margin-bottom: 5px;
+    float: right;
+}
+.btn-copy:hover{
+    cursor: pointer;
+}
+.btn-copy:active{
+    color: navajowhite;
+}
+.code_keyword_comment{
+    color: pink;
+    padding-top: 5px;
+    display: block;
+}
